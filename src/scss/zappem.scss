@@ -88,6 +88,11 @@ pre{
   margin: 0 auto;
 }
 
+.white-section{
+  background-color: #fff;
+  padding: 2em 0;
+}
+
 .row {
   display: flex;
   padding-left: 15px;
@@ -131,7 +136,7 @@ footer{
   height: 160px;
   box-sizing: border-box;
   padding: 2em 0;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.3);
   img.logo{
     width: 100px;
   }
