@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="column">
-				<img src="https://demo.zappem.xyz/images/logo.svg" class="logo">
+				<img src="/img/logo.svg" class="logo">
 			</div>
 			<div class="column shrink">
 				<nav>

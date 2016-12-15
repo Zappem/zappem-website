@@ -8,7 +8,10 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 12px;
   background-color: $background-color;
+}
 
+html, body{
+  height: 100%;
 }
 
 a {
@@ -55,11 +58,29 @@ button {
   }
 }
 
+#content{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -160px;
+  padding-top: 65px;
+  box-sizing: border-box;
+}
+
 .announcement{
   text-align: center;
   font-size: 3em;
   font-weight: bold;
   padding: 2em;
+}
+
+pre{
+  background-color: rgba(0,0,0,0.2);
+  padding: 1em;
+}
+
+.align-right{
+  text-align: right;
 }
 
 .container {
@@ -81,6 +102,10 @@ button {
 }
 
 .topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 1em;
   background-color: $background-color;
   img.logo {
@@ -102,6 +127,29 @@ button {
   }
 }
 
+footer{
+  height: 160px;
+  box-sizing: border-box;
+  padding: 2em 0;
+  background-color: rgba(0,0,0,0.1);
+  img.logo{
+    width: 100px;
+  }
+  ul{
+    margin: 0;
+    list-style: none;
+    li{
+      margin: 5px 0;
+      &:first-child{
+        margin-top: 0;
+      }
+    }
+  }
+  .copyright{
+    color: rgba(255,255,255,0.3);
+  }
+}
+
 .splash {
   text-align: center;
   padding: 3em 0 1em 0;
@@ -113,7 +161,7 @@ button {
   }
   h1 {
     font-size: 3em;
-    font-weight: 100;
+    font-weight: 300;
     margin-bottom: 0;
   }
   h2{
@@ -159,4 +207,9 @@ button {
       }
     }
   }
+}
+
+.learn-more-1{
+  background-color: #fff;
+  padding: 2em 0;
 }
