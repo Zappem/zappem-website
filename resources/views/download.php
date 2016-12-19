@@ -2,7 +2,12 @@
 	<div class="container">
 
 		<div class="row">
-			<div class="column">
+			<div class="column small-12 medium-6">
+				<p>
+					<strong>Requirements:</strong>
+					<ul>
+						<li>
+
 				<p>
 					The quickest way to get started with Zappem is via NPM.
 				</p>
@@ -32,3 +37,4 @@
 			</div>
 		</div>
 	</div>
+
