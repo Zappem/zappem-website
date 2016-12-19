@@ -10,18 +10,15 @@
 						<a href="/">
 							<li>Home</li>
 						</a>
-						<a href="/getting-started">
-							<li>Getting Started</li>
-						</a>
 						<a href="/docs">
 							<li>Docs</li> 								
 						</a> 								
 						<a href="https://demo.zappem.xyz" target="_blank"> 									
 							<li>Demo</li> 								
 						</a> 								
-						<a href="/download"> 									
+						<a href="/get-started"> 									
 							<li> 										
-								<button class="small accent">Download</button> 									
+								<button class="small accent">Get Started</button> 									
 							</li> 								
 						</a> 							
 					</ul> 						

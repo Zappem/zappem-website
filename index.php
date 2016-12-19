@@ -17,10 +17,8 @@
 
 	function getViewFileName(){
 		switch($_SERVER['REQUEST_URI']){
-			case "/getting-started":
+			case "/get-started":
 				return "getting-started";
-			case "/download":
-				return "download";
 			case "/docs":
 				return "docs";
 			case "/":

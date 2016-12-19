@@ -1,23 +1,20 @@
 <div class="splash">
 	<div class="container">
-		<div class="row splash-row"> 					
-			<div class="column">
-				<img src="/img/zappem-screenshot.png">
-			</div>
+		<div class="row splash-row">				
 			<div class="column intro-column">
-				<h1>Bug tracking</h1>
-				<h2>with you in control.</h2>
-				<div class="row splash-buttons">
-					<div class="column shrink">
-						<a href="#" class="scroll-to-content">
-							<button class="large">Learn More</button>
-						</a>
-					</div>
-					<div class="column shrink">
-						<a href="https://demo.zappem.xyz" target="_blank">
-							<button class="large accent">See a Demo</button>
-						</a>
-					</div>
+				<div>
+					<h1>A free bug tracker that uses your own database</h1>
+				</div>
+				<div class="splash-buttons">
+					<a href="https://demo.zappem.xyz" target="_blank">
+						<button>See a Demo</button>
+					</a>
+					<a href="/get-started">
+						<button class="accent">Get Started</button>
+					</a>
+				</div>
+				<div>
+					<img src="/img/screenshot.jpg">
 				</div>
 			</div>			
 		</div>  				
