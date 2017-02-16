@@ -1,6 +1,6 @@
 <div class="splash">
 	<div class="container">
-		<div class="row splash-row">				
+		<div class="row splash-row">
 			<div class="column intro-column">
 				<div>
 					<h1>A free bug tracker that uses your own database</h1>
@@ -14,10 +14,10 @@
 					</a>
 				</div>
 				<div>
-					<img src="/img/screenshot.jpg">
+					<img src="/img/001-MacBook-Silver.png">
 				</div>
-			</div>			
-		</div>  				
+			</div>
+		</div>
 
 	</div>
 </div>
@@ -68,7 +68,7 @@
 			<div class="column">
 				<div class="pricing-box zappem">
 					<div class="logo">
-						<img src="/img/logo.svg">
+						<img src="/img/logo-white.svg">
 					</div>
 					<ul class="feature-list">
 						<li>

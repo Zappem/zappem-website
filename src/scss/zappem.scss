@@ -1,11 +1,12 @@
 
 $font-family: 'Helvetica Neue', sans-serif;
-$background-color: #1f1e38;
+$background-color: #fff;
+$splash-color: #1f1e38;
 $accent-color: rgb(185, 240, 39);
 body {
   font-family: $font-family;
   margin: 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: $splash-color;
   -webkit-font-smoothing: antialiased;
   font-size: 12px;
   background-color: $background-color;
@@ -23,7 +24,7 @@ a {
     text-decoration: none;
   }
   &:hover {
-    color: rgba(255, 255, 255, 1);
+    //color: rgba(255, 255, 255, 1);
   }
 }
 
@@ -57,6 +58,8 @@ button {
     color: #a7d923;
     &:hover {
       background-color: rgba(255, 255, 255, 1);
+	  color: $background-color;
+	  border-color: $background-color;
     }
   }
 }
@@ -122,13 +125,14 @@ pre{
   background-color: $background-color;
   button{
     color: $background-color;
+	background-color: $splash-color;
   }
   img.logo {
     width: 150px;
     padding-top: 6px;
   }
   nav {
-    
+
     ul {
       margin: 0;
       padding: 0;
@@ -147,7 +151,8 @@ footer{
   height: 160px;
   box-sizing: border-box;
   padding: 2em 0;
-  background-color: rgba(0,0,0,0.3);
+  background-color: $splash-color;
+  color: $background-color;
   img.logo{
     width: 100px;
   }
@@ -162,7 +167,7 @@ footer{
     }
   }
   .copyright{
-    color: rgba(255,255,255,0.3);
+    color: rgba(255,255,255,1);
   }
 }
 
@@ -172,23 +177,21 @@ footer{
 
 .splash {
   padding: 8em 0 6em 0;
-  background-color: rgba(0,0,0,0.3);
+  background-color: $splash-color;
   text-align: center;
 
   img{
     width: 100%;
-    border-radius: 5px;
-    border: 3px solid $background-color;
     max-width: 700px;
   }
 
   h1 {
     font-size: 3em;
-    font-weight: 900;
+    font-weight: 300;
     margin-bottom: 0;
     color: #fff;
   }
-  
+
   .splash-buttons {
     margin: 3em 0;
     button {
@@ -197,11 +200,11 @@ footer{
       height: 50px;
       margin: 0 1em;
       font-weight: bold;
-      border-color: $accent-color;
-      color: $accent-color;
+      border-color: $background-color;
+      color: $background-color;
       &.accent{
-        background-color: $accent-color;
-        color: $background-color;
+        background-color: $background-color;
+        color: $splash-color;
       }
     }
   }
@@ -212,6 +215,7 @@ footer{
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-size: 1.5em;
   span{
     color: rgb(185, 240, 39);
   }
@@ -227,15 +231,16 @@ footer{
   padding: 4em 0;
 
   .pricing-box{
-    background-color: rgba(0,0,0,0.3);
+    background-color: $splash-color;
     padding:1em;
     border-radius: 5px;
     margin-top: 5em;
     transform: scale(0.9);
+	color: $background-color;
     &.zappem{
       font-weight: bold;
       transform: scale(1);
-      background-color: rgba(0,0,0,0.5);
+      background-color: $splash-color;
       .feature-list li small{
         font-weight: normal;
       }
@@ -263,15 +268,15 @@ footer{
       }
       li{
         margin: 1em 0;
-        border-top: 1px solid rgba(255,255,255,0.1);
+        border-top: 1px solid rgba(0,0,0,0.1);
         margin: .5em 0;
         padding: 1em 0 0.5em 0;
         height: 40px;
         small{
           display: block;
-          color: rgba(255,255,255,0.2);
+          color: rgba(0,0,0,0.4);
         }
       }
     }
   }
-} 
+}

@@ -1,6 +1,6 @@
 <!doctype html>
-<html> 	
-	<head> 		
+<html>
+	<head>
 		<link href="https://fonts.googleapis.com/css?family=Raleway:100,400,600" rel="stylesheet">
 		<link href="/css/zappem.css" rel="stylesheet">
 	</head>
@@ -15,7 +15,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="column shrink">
-						<img src="/img/logo.svg" class="logo">
+						<img src="/img/logo-white.svg" class="logo">
 					</div>
 					<div class="column shrink">
 						<ul>
